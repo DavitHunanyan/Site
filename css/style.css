@@ -1,13 +1,96 @@
-
+       
         header {
             width: 100%;
             min-width: 1300px;
-            height: 60px;
-            background-color: burlywood;
+            height: 80px;
+            background-color:black ;
+            
+        }
+        .ikn{
+            width:210px;
+            height:60px;
+            background-color:#03D2DC;
+            margin-left:40px;
+            font-family:Adobe Arabic;
+            font-size:40px;
+            color:#282828;
+            padding:20px 0px 0px 0px;
+            float:left;
+            border-radius:4px;
+        }
+          
+        .menu{
+            width:700px;
+            height:80px;
+            float:left;
+        }
+        li {
+            float: left;
+            width: 100px;
+            display: block;
+            
         }
 
-        .saytbar {
-            margin: 10px 0px;
+          
+
+        a {
+            font-family:'Segoe UI';
+            text-decoration: none;
+            color:white;
+        }
+       
+        .search{
+            width:700px;
+            height:40px;
+            
+        }
+        .srch{
+            width:550px;
+            float:left;
+            background-color:#B4B4B4;
+            border:none;
+            margin:10px 0px 0px 40px;
+            height:25px;
+        }
+        .btn{
+            float:left;
+            margin-top:10px;
+            border:none;
+            height:25px;
+
+        }
+        .login{
+            width:300px;
+            height:80px;
+            float:left;
+            
+        }
+        .log>p{
+            color:white;
+            margin:10px 0px 5px 10px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .log>span{
+            font-size:30px;
+            color:#03D2DC;
+            margin-left:80px;
+            font-family: sans-serif;
+        }
+        .log{
+            float:left;
+        }
+        .button{
+            background-color:#03D2DC;
+            border-radius:3px;
+            font-family:'Adobe Arabic';
+            font-size:20px;
+            width:90px;
+            height:30px;
+            margin:20px 0px 0px 20px;
+        }
+        
+        .sitebar {
+            
             width: 300px;
             height: 500px;
             float: left;
@@ -15,7 +98,7 @@
         }
 
         .main {
-            margin: 10px 0px 10px 310px;
+            
             height: 500px;
             background-color: aqua;
         }
@@ -26,24 +109,5 @@
             height: 50px;
         }
 
-        li {
-            float: left;
-            border-left: solid 2px rgb(0, 0, 0);
-            width: 100px;
-            display: block;
-            height: 60px;
-        }
-
-            li > span {
-                display: block;
-                margin: 20px 30px 20px;
-            }
-
-        a {
-            text-decoration: none;
-        }
-
-        nav > ul {
-            padding-left: 310px;
-        }
+      
     
