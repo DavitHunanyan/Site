@@ -27,6 +27,7 @@
             width:700px;
             height:80px;
             float:left;
+            margin-left:30px;
         }
         li {
             float: left;
@@ -45,11 +46,13 @@
        
         .search{
             width:700px;
-            height:40px;
+            height:70px;
+           
+            
             
         }
         .srch{
-            width:550px;
+            width:505px;
             float:left;
             background-color:#B4B4B4;
             border:none;
