@@ -1,0 +1,40 @@
+#width{
+height:30px;
+width:330px;
+}
+input{
+
+margin:10px 0px;
+}
+celect{
+width:100px;
+}
+form{
+padding:20px 20px;
+margin:auto;
+}
+a{
+color:#038AC6;
+}
+.main{
+padding:80px 350px;
+}
+.gxb{
+position:absolute;
+top:80;
+left:685px;
+}
+.sign{
+
+padding:10px 20px;
+width:350px;
+font-family:arial;
+font-size:30px;
+color:#ffffff;
+background-color:#F77B2D;
+}
+.footer{
+position:absolute;
+top:540px;
+left:590px;
+}

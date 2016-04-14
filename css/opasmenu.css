@@ -1,0 +1,111 @@
+body{
+position:absolute;
+/*background-repeat:no-repeat;*/
+color:#ffffff;
+background-image:url(../img/nissan.jpg);
+}
+#img1{
+background-image:url(../img/car1.png)
+}
+#img2{
+background-image:url(../img/cars2.png)
+}
+#img3{
+background-image:url(../img/car3.png)
+}
+.div1{
+float:left;
+width:50px;
+padding:60px 70px;
+margin:10px 15px;
+}
+
+
+.footer{
+background-color:black;
+opacity:0.8;
+width:100%;
+
+position:fixed;
+left:0;
+bottom:0px;
+}
+.main{
+position:fixed;
+background-color:black;
+opacity:0.7;
+width:400px;
+padding:20px 20px;
+}
+.main1{
+background-color:black;
+opacity: 0.7;
+padding: 30px 20px;
+width:100%;
+position:fixed;
+top:150px;
+left:500px;
+}
+
+span{
+font-family:Arial;
+font-size:14px;
+
+margin:0;
+}
+
+
+.menu-list{
+
+list-style:none;
+padding:0;
+margin:0;
+}
+.menu-list  a{
+
+font-family:Arial;
+text-decoration:none;
+color:#ffffff;
+}
+.menu > li{
+
+padding:0px 0px;
+margin: 0px 4px;
+float:left;
+
+}
+.menu-list a{
+
+padding:0px 20px;
+
+}
+.mintext{
+font-size:10px;
+padding-left:20px;
+color:blue;}
+.menu > li .menu-list{
+position:absolute;
+
+background:black;
+opacity:0.8;
+
+}
+.menu > li > a{
+width:40px;
+
+font-size:14px;
+
+
+}
+.menu > li > a:hover{
+color:#ffffff;
+
+}
+.menu > li > .menu-list{
+margin:30px 0px;
+display:none;
+}
+.menu > li:hover .menu-list{
+display:block;
+
+}
