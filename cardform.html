@@ -1,0 +1,69 @@
+﻿<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>CARD FORM </title>
+ <link href = "css/cardform.css" type="text/css" rel="stylesheet">
+ <link href = "cardform.js" type="jscript" >
+
+ </head>
+ <body>
+ <script>
+ var dasht1 = document.getElementById('number').value;
+ function sxal(){
+ if(dasht1 >"1" && dasht1 <"9999999999999999")
+ {
+	 
+	 alert("tvern 16 hat grvac chen");
+ }
+ }
+ </script>
+ <div  class="main">
+ </div>
+ <div class="form">
+ <span>Pay invoice #0040 with Credit Card</span>
+ <div class="card"></div>
+ <div class="forma">
+ <div class="div1">
+ <label for="number">Card number</label></br>
+ <input id="number" type="text"  name="Card number"  ></br></br>
+ <label for="name">Name on card</label></br>
+ <input id="name" type ="text" name="name" ></br></br>
+ <label for="1">Tip (optional):</label></br></br>
+ <label for="2">Involoe Amount:</label></br></br></br>
+ <label for="3">Total:</label></br>
+ </div>
+ <div class="div2">
+ <label for="11">Expiration(MM/YYYY)</label></br>
+ <select name="select"id="11">
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+</select>
+/
+<select name="select2"id="22">
+<option>2011</option>
+<option>2012</option>
+<option>2013</option>
+<option>2014</option>
+<option>2015</option>
+</select></br></br>
+ <label for="code">Card Code CVC</label></br>
+ <input id="code" type ="text" name="code" ></br></br>
+ <input class="input"id="1" type ="text" value="$"  ></br></br>
+ <input class="input" id="2"  type ="text" value="$" ></br></br>
+ <input class="input" id="3" type ="text" value="$" >
+ 
+ </div>
+ 
+ 
+ <input id="button1" type="button"name="button"value="Cancel">
+ <input id="button"" type="button"name="button"value="Sebmit Payment $100689"onclick="sxal()">
+ </div>
+ </div>
+ 
+ </body>
+ 
+ 
+ </html>
