@@ -5,7 +5,7 @@
             width: 100%;
             min-width: 1300px;
             height: 100px;
-            background-color:black ;
+            background-color:#123DE9 ;
             position:fixed;
             z-index:1;
             top:0px;
@@ -54,10 +54,12 @@
         .srch{
             width:505px;
             float:left;
-            background-color:#B4B4B4;
+            
             border:none;
             margin:10px 0px 0px 40px;
             height:25px;
+            color:black;
+            padding-left:20px;
         }
         .btn{
             float:left;
@@ -106,6 +108,15 @@
             border-radius:3px;
             padding:20px 10px 0px 10px;
         }
+        .country{
+            width:250px;
+            height:300px;
+            font-family:'Adobe Arabic';
+            font-size:25px;
+            background-color:azure;
+            border-radius:5px;
+            padding:20px;
+        }
         .map{
             width:295px;
             height:400px;
@@ -118,11 +129,43 @@
         }
 
         .main {
-            margin: 100px 0px 5px 0px;
-            height: 800px;
-            width:1010px;
-            background-color: ;
+            margin: 100px 0px 5px 5px;
+            
+            width:1000px;
+            background-color:#3AE4F7 ;
             float:left;
+            border-radius:5px;
+            border:solid 3px gray;
+        }
+        .prod{
+            width:200px;
+            height:250px;
+            margin:23px;
+            background-color:azure;
+            float:left;
+            border:solid 2px grey;
+            border-radius:3px;
+        }
+        .unit{
+             width:200px;
+            height:50px;
+            background-color:darkgrey;
+            font-family:Arial;
+            border-radius:3px;
+            position:relative;
+            top:200px;
+            
+            
+
+        }
+        .unit>span{
+            font-size:25px;
+            display:block;
+            width:80px;
+            height:25px;
+            position:relative;
+            top:20px;
+            left:110px;
         }
 
         footer {
