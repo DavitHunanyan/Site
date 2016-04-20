@@ -1,7 +1,8 @@
 body{
 position:absolute;
-/*background-repeat:no-repeat;*/
+background-repeat:no-repeat;
 color:#ffffff;
+background-image:url(../img/nissan.jpg);
 }
 .div1{
 float:left;
