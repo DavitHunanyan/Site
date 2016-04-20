@@ -2,16 +2,6 @@ body{
 position:absolute;
 /*background-repeat:no-repeat;*/
 color:#ffffff;
-background-image:url(../img/nissan.jpg);
-}
-#img1{
-background-image:url(../img/car1.png)
-}
-#img2{
-background-image:url(../img/cars2.png)
-}
-#img3{
-background-image:url(../img/car3.png)
 }
 .div1{
 float:left;
