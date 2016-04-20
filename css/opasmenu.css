@@ -131,24 +131,17 @@ display:block;
         .jssorb03 .av { background-position: -65px -4px; }
         .jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px; }
 
-        /* jssor slider arrow navigator skin 03 css */
-        /*
-        .jssora03l                  (normal)
-        .jssora03r                  (normal)
-        .jssora03l:hover            (normal mouseover)
-        .jssora03r:hover            (normal mouseover)
-        .jssora03l.jssora03ldn      (mousedown)
-        .jssora03r.jssora03rdn      (mousedown)
-        */
+       
         .jssora03l, .jssora03r {
             display: block;
             position: absolute;
-            /* size of arrow element */
+            
             width: 55px;
             height: 55px;
             cursor: pointer;
-            background: url('img/a03.png') no-repeat;
+            
             overflow: hidden;
+            font-size:55px;
         }
         .jssora03l { background-position: -3px -33px; }
         .jssora03r { background-position: -63px -33px; }

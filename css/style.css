@@ -1,12 +1,13 @@
        body{
            min-width:1340px;
+           background-color:#1BB5FF ;
        }
         header {
             width: 100%;
             min-width: 1300px;
             height: 100px;
             background-color:black ;
-            opacity:0.9;
+            
             position:fixed;
             z-index:1;
             top:0px;
@@ -14,7 +15,7 @@
         .ikn{
             width:210px;
             height:60px;
-            background-color:#03D2DC;
+            background-color:chocolate;
             margin:10px 0px 0px 40px;
             font-family:Adobe Arabic;
             font-size:40px;
@@ -82,7 +83,7 @@
         }
         .log>span{
             font-size:30px;
-            color:#03D2DC;
+            color:chocolate;
             margin-left:80px;
             font-family: sans-serif;
         }
@@ -90,7 +91,7 @@
             float:left;
         }
         .button{
-            background-color:#03D2DC;
+            background-color:blue;
             border-radius:3px;
             font-family:'Adobe Arabic';
             font-size:20px;
@@ -133,7 +134,7 @@
             margin: 100px 0px 5px 5px;
             
             width:1000px;
-            background-color:#3AE4F7 ;
+            background-color:#AAE0F7 ;
             float:left;
             border-radius:5px;
             border:solid 3px gray;
@@ -150,7 +151,7 @@
         .unit{
              width:200px;
             height:50px;
-            background-color:darkgrey;
+            background-color:darkcyan;
             font-family:Arial;
             border-radius:3px;
             position:relative;
