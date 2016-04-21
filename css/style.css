@@ -15,7 +15,7 @@
         .ikn{
             width:210px;
             height:60px;
-            background-color:chocolate;
+            background-color:darkcyan;
             margin:10px 0px 0px 40px;
             font-family:Adobe Arabic;
             font-size:40px;
@@ -83,7 +83,7 @@
         }
         .log>span{
             font-size:30px;
-            color:chocolate;
+            color:lightseagreen;
             margin-left:80px;
             font-family: sans-serif;
         }
@@ -91,7 +91,7 @@
             float:left;
         }
         .button{
-            background-color:blue;
+            background-color:lightseagreen;
             border-radius:3px;
             font-family:'Adobe Arabic';
             font-size:20px;
