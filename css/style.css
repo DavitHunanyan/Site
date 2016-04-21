@@ -184,6 +184,7 @@
         .bsn{
             font-size:40px;
             color:#4D6082;
+            padding-left:140px;
         }
         .bsnadd{
             font-size:20px;
@@ -206,4 +207,31 @@
         }
 
       
-    
+   
+     #mot {
+background-image:url(../img/132.jpg);
+   } 
+      #tosh {
+background-image:url(../img/200.jpg);
+   }  
+        #ass{
+background-image:url(../img/Ass.jpg);
+   }
+    #blu{
+background-image:url(../img/Bluet.jpg);
+   } 
+     #dail {
+background-image:url(../img/Daih.jpg);
+   } 
+      #meta {
+background-image:url(../img/meta.jpg);
+   } 
+        #new {
+background-image:url(../img/New.jpg);
+   }
+    #ubt {
+background-image:url(../img/ubf.jpg);
+   } 
+     #x2 {
+background-image:url(../img/x-2.jpg);
+   } 
